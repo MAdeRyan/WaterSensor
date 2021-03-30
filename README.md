@@ -12,3 +12,7 @@ Pada water sensor menggunakan dua fitur yaitu  nyalakan air jika penampungan air
 ![Component Diagram](/images/component%20diagram.jpg)
 
 ![Class Diagram](/images/class%20diagram.JPG)
+
+## Output
+Setelah men-compile projek, program bisa dijalankan dengan menjalankan Main.java output yang akan keluar terihat seperti gambar dibawah ini:
+![Output](/images/output.JPG)
