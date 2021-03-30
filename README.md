@@ -10,3 +10,4 @@ Pada water sensor menggunakan dua fitur yaitu  nyalakan air jika penampungan air
 
 ## Rancangan
 ![Component Diagram](https://github.com/MAdeRyan/WaterSensor/blob/f871d2f01d441ec6172e9a6de63ba57acf3fee45/images/component%20diagram.jpg)
+Format: ![Alt Text](url)
