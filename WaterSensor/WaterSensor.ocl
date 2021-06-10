@@ -1,0 +1,37 @@
+context Sensor::connectTo(tank: WaterTank):
+    pre: self.tank = null
+    post: self.tank = tank
+
+context Sensor::detect():
+    pre: self.tankCapacity = 0
+    post: if self.tankCapacity = 0
+	  then self.waterfill()
+	  else if tankCapacity = 100
+	  then self.activate(0)
+	  else self.waterfill()
+
+context Sensor::waterfill():
+    pre: self.tankCapacity = self.tank^getCapacity()
+    post: self.tankCapacity + 20
+
+context Sensor::activate(state: int):
+    pre: self.state = 0
+    post: if state = 1
+   	  then print("WaterSensor was activated")
+	  else print("WaterSensor was deactivated")
+
+context WaterTank::getCapacity():
+    pre: result = self.currentCapacity
+    post: resulr = self.currentCapacity
+
+context WaterTank::setCapacity(water: int):
+    pre: self.currentCapacity = water
+    post: self.currentCapacity = water
+
+context Button::connectTo(conDev: OnOff):
+    pre: self.connectedDevice = null
+    post: self.connectedDevice = conDev
+
+context Button::buttonPressed(state: int):
+    pre: state = 0
+    post: self.connectedDevice^activate(state)
