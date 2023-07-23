@@ -1,8 +1,8 @@
 # WaterSensor
 ## Anggota :
-1. M. Ade Ryan 1808107010051
-2. Lia Asmaliza 1808107010019
-3. Aisyah M. 1808107010034
+1. M. Ade Ryan 
+2. Lia Asmaliza 
+3. Aisyah M. 
 
 ## Deskripsi
 Water sensor merupakan alarm untuk level ketinggian permukaan air pada bak penampungan secara otomatis. 
